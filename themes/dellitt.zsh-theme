@@ -10,7 +10,7 @@ function git_prompt_info() {
 function battery_charge() {
     if [ -e ~/bin/batcharge.py ]
     then
-        echo `python ~/bin/batcharge.py`
+        echo `python ~/dotfiles/bin/batcharge.py`
     else
         echo '';
     fi
